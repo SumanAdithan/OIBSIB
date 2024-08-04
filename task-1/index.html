@@ -9,34 +9,44 @@
     <body>
         <!-- header -->
         <header class="header">
-            <div class="header-logo">
-                <div class="logo-img">
+            <div class="header__logo">
+                <div class="header__logo-img">
                     <img src="./assets/img/logo.png" alt="coinary" />
                 </div>
-                <div class="logo-txt">Coinary</div>
+                <div class="header__logo-txt">Coinary</div>
             </div>
-            <div class="header-navigation">
-                <ul class="navlinks">
-                    <li class="navlink"><a href="#">Home</a></li>
-                    <li class="navlink"><a href="#">About</a></li>
-                    <li class="navlink"><a href="#">Our App</a></li>
-                    <li class="navlink"><a href="#">Pages</a></li>
-                    <li class="navlink"><a href="#">Taken Sale</a></li>
+            <nav class="header__navigation">
+                <ul class="navigation__list">
+                    <li class="navigation__item">
+                        <a href="#" class="navigation__link">Home</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="#" class="navigation__link">About</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="#" class="navigation__link">Our App</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="#" class="navigation__link">Pages</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="#" class="navigation__link">Token Sale</a>
+                    </li>
                 </ul>
-            </div>
-            <div class="header-btn">
-                <button class="btn-primary">Download App</button>
+            </nav>
+            <div class="header__cta">
+                <button class="cta__btn-primary">Download App</button>
             </div>
         </header>
         <!-- main -->
         <main class="main">
             <!-- home -->
             <section class="home">
-                <div class="home-content">
-                    <h1 class="home-heading">
+                <div class="home__content">
+                    <h1 class="home__heading">
                         Best place buy and sell
-                        <span class="text-primary">crypto currency</span>
-                        asset
+                        <span class="text-primary">cryptocurrency</span>
+                        assets
                     </h1>
                     <p class="desc">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -45,10 +55,10 @@
                         exercitation ullamco laboris nisi ut aliquip ex ea
                         commodo consequat. Duis aute mollit anim id est laborum.
                     </p>
-                    <div class="home-btns">
-                        <button class="btn-primary">Get Started</button>
-                        <button class="home-btn-wt">
-                            <span class="play-icon">
+                    <div class="home__btns">
+                        <button class="cta__btn-primary">Get Started</button>
+                        <button class="home__btn-watch">
+                            <span class="home__btn-watch-icon">
                                 <img
                                     src="./assets/img/play-icon.png"
                                     alt="play icon"
@@ -58,10 +68,10 @@
                         </button>
                     </div>
                 </div>
-                <div class="home-img">
+                <div class="home__img">
                     <div id="dot-particles-js"></div>
-                    <div class="circle-layer-1">
-                        <div class="circle-layer-2">
+                    <div class="home__circle-layer home__circle-layer--1">
+                        <div class="home__circle-layer home__circle-layer--2">
                             <img src="./assets/img/coin.svg" alt="coin" />
                         </div>
                     </div>
@@ -69,14 +79,17 @@
             </section>
             <!-- about -->
             <section class="about">
-                <div class="about-image">
-                    <div class="about-img">
-                        <img src="./assets/img/about.png" alt="about" />
+                <div class="about__image">
+                    <div class="about__img">
+                        <img
+                            src="./assets/img/about.png"
+                            alt="about our company"
+                        />
                     </div>
                 </div>
-                <div class="about-content">
+                <div class="about__content">
                     <div class="text-primary">About us</div>
-                    <h1 class="about-heading">
+                    <h1 class="about__heading">
                         Accelerate the world’s transition
                     </h1>
                     <p class="desc">
@@ -86,16 +99,16 @@
                         exercitation ullamco laboris nisi ut aliquip ex ea
                         commodo consequat. Duis aute mollit anim id est laborum.
                     </p>
-                    <div class="about-btn">
-                        <button class="btn-primary">More About Us</button>
+                    <div class="about__btn">
+                        <button class="cta__btn-primary">More About Us</button>
                     </div>
                 </div>
             </section>
             <!-- why choose us -->
             <section class="why-choose-us">
-                <div class="why-choose-us-content">
+                <div class="why-choose-us__content">
                     <div class="text-primary">Why Choose Us</div>
-                    <h1 class="why-to-choose-heading">
+                    <h1 class="why-choose-us__heading">
                         Safe, guaranteed, and easy to use
                     </h1>
                     <p class="desc">
@@ -106,57 +119,57 @@
                         commodo consequat. Duis aute mollit anim id est laborum.
                     </p>
                 </div>
-                <div class="why-choose-cards">
-                    <div class="why-choose-card">
+                <div class="why-choose-us__cards">
+                    <div class="why-choose-us__card">
                         <div class="card-img">
                             <img
                                 src="./assets/img/why-choose-us/unlock.png"
                                 alt="unlock"
                             />
                         </div>
-                        <h1 class="card-heading">Safe and secure</h1>
+                        <h2 class="card-heading">Safe and secure</h2>
                         <div class="card-desc">
                             Lorem ullamco laboris nisi ex ea commodo consequat.
                             Duis aute mollit anim id est laborum sad to veniam
                             nostrud quis exercition laboris.
                         </div>
                     </div>
-                    <div class="why-choose-card">
+                    <div class="why-choose-us__card">
                         <div class="card-img">
                             <img
                                 src="./assets/img/why-choose-us/activity.png"
                                 alt="activity"
                             />
                         </div>
-                        <h1 class="card-heading">Good invesment</h1>
+                        <h2 class="card-heading">Good invesment</h2>
                         <div class="card-desc">
                             Lorem ullamco laboris nisi ex ea commodo consequat.
                             Duis aute mollit anim id est laborum sad to veniam
                             nostrud quis exercition laboris.
                         </div>
                     </div>
-                    <div class="why-choose-card">
+                    <div class="why-choose-us__card">
                         <div class="card-img">
                             <img
                                 src="./assets/img/why-choose-us/bootsrap.png"
                                 alt="bootstrap"
                             />
                         </div>
-                        <h1 class="card-heading">Integrated app</h1>
+                        <h2 class="card-heading">Integrated app</h2>
                         <div class="card-desc">
                             Lorem ullamco laboris nisi ex ea commodo consequat.
                             Duis aute mollit anim id est laborum sad to veniam
                             nostrud quis exercition laboris.
                         </div>
                     </div>
-                    <div class="why-choose-card">
+                    <div class="why-choose-us__card">
                         <div class="card-img">
                             <img
                                 src="./assets/img/why-choose-us/bitcoin-convert.png"
                                 alt="bitcoin converter"
                             />
                         </div>
-                        <h1 class="card-heading">Multi Curency Support</h1>
+                        <h2 class="card-heading">Multi Curency Support</h2>
                         <div class="card-desc">
                             Lorem ullamco laboris nisi ex ea commodo consequat.
                             Duis aute mollit anim id est laborum sad to veniam
@@ -167,30 +180,30 @@
             </section>
             <!-- guide -->
             <section class="guide">
-                <div class="guide-content">
+                <div class="guide__content">
                     <div class="text-primary">Step by step guide</div>
-                    <h1 class="guide-heading">Easy Steps to Success</h1>
+                    <h1 class="guide__heading">Easy Steps to Success</h1>
                     <p class="desc">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et consequat.
                         Duis aute mollit anim id est laborum.
                     </p>
                 </div>
-                <div class="guide-cards">
-                    <div class="guide-card">
+                <div class="guide__cards">
+                    <div class="guide__card">
                         <div class="card-img">
                             <img
                                 src="./assets/img/guide/empty-wallet.png"
                                 alt="wallet"
                             />
                         </div>
-                        <h1 class="card-heading">Create Wallet</h1>
+                        <h2 class="card-heading">Create Wallet</h2>
                         <p class="card-desc">
                             Lorem ullamco laboris nisi ex ea commodo consequat.
                             Duis aute mollit anim id est laborum sad to veniam
                             nostrud quis exercition laboris.
                         </p>
-                        <button class="btn-primary">
+                        <button class="cta__btn-primary">
                             <span>Learn More</span>
                             <span class="greaterthan-icon">
                                 <img
@@ -200,20 +213,20 @@
                             </span>
                         </button>
                     </div>
-                    <div class="guide-card">
+                    <div class="guide__card">
                         <div class="card-img">
                             <img
                                 src="./assets/img/guide/moneys.png"
                                 alt="money"
                             />
                         </div>
-                        <h1 class="card-heading">Make Payment</h1>
+                        <h2 class="card-heading">Make Payment</h2>
                         <p class="card-desc">
                             Lorem ullamco laboris nisi ex ea commodo consequat.
                             Duis aute mollit anim id est laborum sad to veniam
                             nostrud quis exercition laboris.
                         </p>
-                        <button class="btn-primary">
+                        <button class="cta__btn-primary">
                             <span>Learn More</span>
                             <span class="greaterthan-icon">
                                 <img
@@ -223,20 +236,20 @@
                             </span>
                         </button>
                     </div>
-                    <div class="guide-card">
+                    <div class="guide__card">
                         <div class="card-img">
                             <img
                                 src="./assets/img/guide/shopping-cart.png"
                                 alt="wallet"
                             />
                         </div>
-                        <h1 class="card-heading">Buy and or sell</h1>
+                        <h2 class="card-heading">Buy and or sell</h2>
                         <p class="card-desc">
                             Lorem ullamco laboris nisi ex ea commodo consequat.
                             Duis aute mollit anim id est laborum sad to veniam
                             nostrud quis exercition laboris.
                         </p>
-                        <button class="btn-primary">
+                        <button class="cta__btn-primary">
                             <span>Learn More</span>
                             <span class="greaterthan-icon">
                                 <img
@@ -250,9 +263,9 @@
             </section>
             <!-- vision -->
             <section class="vision">
-                <div class="vision-content">
+                <div class="vision__content">
                     <div class="text-primary">Our vision</div>
-                    <h1 class="vision-heading">
+                    <h1 class="vision__heading">
                         Users from all over the world
                     </h1>
                     <p class="desc">
@@ -260,60 +273,60 @@
                         sed do eiusmod tempor incididunt ut labore et consequat.
                         Duis aute mollit anim id est laborum.
                     </p>
-                    <div class="status">
-                        <div class="stat">
-                            <div class="stat-no">32K+</div>
-                            <div class="stat-name">People Joined</div>
+                    <div class="vision__status">
+                        <div class="vision__stat">
+                            <div class="vision__stat-no">32K+</div>
+                            <div class="vision__stat-name">People Joined</div>
                         </div>
-                        <div class="stat">
-                            <div class="stat-no">250+</div>
-                            <div class="stat-name">Vip Users</div>
+                        <div class="vision__stat">
+                            <div class="vision__stat-no">250+</div>
+                            <div class="vision__stat-name">Vip Users</div>
                         </div>
-                        <div class="stat">
-                            <div class="stat-no">87+</div>
-                            <div class="stat-name">Big Company</div>
+                        <div class="vision__stat">
+                            <div class="vision__stat-no">87+</div>
+                            <div class="vision__stat-name">Big Company</div>
                         </div>
                     </div>
                 </div>
-                <div class="vision-img">
+                <div class="vision__img">
                     <img src="./assets/img/map.png" alt="map" />
                 </div>
             </section>
             <!-- feature -->
             <section class="feature">
-                <div class="feature-content">
+                <div class="feature__content">
                     <div class="text-primary">Our Features</div>
-                    <h1 class="feature-heading">All you need is here</h1>
+                    <h1 class="feature__heading">All you need is here</h1>
                     <p class="desc">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et consequat.
                         Duis aute mollit anim id est laborum.
                     </p>
                 </div>
-                <div class="feature-cards">
-                    <div class="feature-section-cards">
-                        <div class="feature-card">
-                            <div class="feature-card-img">
+                <div class="feature__cards">
+                    <div class="feature__section-cards">
+                        <div class="feature__card">
+                            <div class="feature__card-img">
                                 <img
                                     src="./assets/img/features/profile.png"
                                     alt="free trail"
                                 />
                             </div>
-                            <h1 class="card-heading">Free trial Account</h1>
+                            <h2 class="card-heading">Free trial Account</h2>
                             <p class="card-desc">
                                 Lorem ullamco laboris nisi ex ea commodo
                                 consequat. Duis aute mollit anim id est laborum
                                 sad to veniam nostrud quis exercition laboris.
                             </p>
                         </div>
-                        <div class="feature-card">
-                            <div class="feature-card-img">
+                        <div class="feature__card">
+                            <div class="feature__card-img">
                                 <img
                                     src="./assets/img/features/like-dislike.png"
                                     alt="Affordable"
                                 />
                             </div>
-                            <h1 class="card-heading">Affordable</h1>
+                            <h2 class="card-heading">Affordable</h2>
                             <p class="card-desc">
                                 Lorem ullamco laboris nisi ex ea commodo
                                 consequat. Duis aute mollit anim id est laborum
@@ -321,32 +334,32 @@
                             </p>
                         </div>
                     </div>
-                    <div class="feature-section-img">
+                    <div class="feature__section-img">
                         <img src="./assets/img/bitcoin.png" alt="bitcoin" />
                     </div>
-                    <div class="feature-section-cards">
-                        <div class="feature-card">
-                            <div class="feature-card-img">
+                    <div class="feature__section-cards">
+                        <div class="feature__card">
+                            <div class="feature__card-img">
                                 <img
                                     src="./assets/img/features/star.png"
                                     alt="Guide by Experts"
                                 />
                             </div>
-                            <h1 class="card-heading">Guide by Experts</h1>
+                            <h2 class="card-heading">Guide by Experts</h2>
                             <p class="card-desc">
                                 Lorem ullamco laboris nisi ex ea commodo
                                 consequat. Duis aute mollit anim id est laborum
                                 sad to veniam nostrud quis exercition laboris.
                             </p>
                         </div>
-                        <div class="feature-card">
-                            <div class="feature-card-img">
+                        <div class="feature__card">
+                            <div class="feature__card-img">
                                 <img
                                     src="./assets/img/features/music-play.png"
                                     alt="customer care"
                                 />
                             </div>
-                            <h1 class="card-heading">24/7 Live Support</h1>
+                            <h2 class="card-heading">24/7 Live Support</h2>
                             <p class="card-desc">
                                 Lorem ullamco laboris nisi ex ea commodo
                                 consequat. Duis aute mollit anim id est laborum
@@ -359,174 +372,242 @@
             <!-- papasale -->
             <section class="papasale">
                 <div class="text-primary">Papasale</div>
-                <h1 class="papasale-heading">Lauchpad Lists</h1>
-                <div class="papasale-cards">
-                    <div class="papasale-card">
-                        <div class="card-header">
-                            <div class="card-header-img">
+                <h1 class="papasale__heading">Launchpad Lists</h1>
+                <div class="papasale__cards">
+                    <div class="papasale__card">
+                        <div class="papasale__card-header">
+                            <div class="papasale__card-header-img">
                                 <img
                                     src="./assets/img/papasale/profile-1.png"
                                     alt="profile-1"
                                 />
                             </div>
-                            <div class="card-btn">
+                            <div class="papasale__card-btn">
                                 <button>Upcoming</button>
                             </div>
                         </div>
-                        <div class="card-body">
+                        <div class="papasale__card-body">
                             <div>
-                                <h1 class="card-body-heading">
+                                <h2 class="papasale__card-title">
                                     Defy kings Lending
-                                </h1>
-                                <p class="card-txt">1 BNB = 69,444.44 DKL</p>
+                                </h2>
+                                <p class="papasale_card-info">
+                                    1 BNB = 69,444.44 DKL
+                                </p>
                             </div>
-                            <p class="card-txt">Soft/Hard1B BNB - 36 BNB</p>
-                            <h1 class="card-body-subheading">
+                            <p class="papasale_card-info">
+                                Soft/Hard: 1B BNB - 36 BNB
+                            </p>
+                            <h3 class="papasale__card-subtitle">
                                 18 BNB - 36 BNB
-                            </h1>
-                            <div class="progress">
-                                <p class="card-txt">Progress (0.00%)</p>
-                                <div class="card-body-img">
+                            </h3>
+                            <div class="papasale__progress">
+                                <p class="papasale__progress-info">
+                                    Progress (0.00%)
+                                </p>
+                                <div class="papasale__progress-bar">
                                     <img
                                         src="./assets/img/papasale/progress-1.png"
                                         alt="progress"
                                     />
                                 </div>
-                                <div class="progress-txt-section">
-                                    <div class="progress-txt">
-                                        <p class="card-txt">0 BNB</p>
-                                        <p class="card-txt">36 BNB</p>
+                                <div class="papasale__progress-details">
+                                    <div class="papasale__progress-detail">
+                                        <p class="papasale__progress-label">
+                                            0 BNB
+                                        </p>
+                                        <p class="papasale__progress-label">
+                                            36 BNB
+                                        </p>
                                     </div>
-                                    <div class="progress-txt">
-                                        <p class="card-txt">Liquidity %</p>
-                                        <p class="card-txt">51 %</p>
+                                    <div class="papasale__progress-detail">
+                                        <p class="papasale__progress-label">
+                                            Liquidity %
+                                        </p>
+                                        <p class="papasale__progress-label">
+                                            51 %
+                                        </p>
                                     </div>
-                                    <div class="progress-txt">
-                                        <p class="card-txt">Lockup Time:</p>
-                                        <p class="card-txt">180 days</p>
+                                    <div class="papasale__progress-detail">
+                                        <p class="papasale__progress-label">
+                                            Lockup Time:
+                                        </p>
+                                        <p class="papasale__progress-label">
+                                            180 days
+                                        </p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="card-footer">
-                            <div class="card-footer-txt">
-                                <div class="card-txt">Sale stars in:</div>
-                                <div class="card-txt">26:19:40:25</div>
+                        <div class="papasale__card-footer">
+                            <div class="papasale__card-footer-txt">
+                                <div class="papasale__card-footer-label">
+                                    Sale starts in:
+                                </div>
+                                <div class="papasale_card-footer-time">
+                                    26:19:40:25
+                                </div>
                             </div>
-                            <div class="card-footer-btn">
+                            <div class="papasale__card-footer-btn">
                                 <button>View</button>
                             </div>
                         </div>
                     </div>
-                    <div class="papasale-card">
-                        <div class="card-header">
-                            <div class="card-header-img">
+                    <div class="papasale__card">
+                        <div class="papasale__card-header">
+                            <div class="papasale__card-header-img">
                                 <img
                                     src="./assets/img/papasale/profile-2.png"
                                     alt="profile-2"
                                 />
                             </div>
-                            <div class="card-btn">
+                            <div class="papasale__card-btn">
                                 <button>Upcoming</button>
                             </div>
                         </div>
-                        <div class="card-body">
+                        <div class="papasale__card-body">
                             <div>
-                                <h1 class="card-body-heading">
+                                <h2 class="papasale__card-title">
                                     Fedy kings Lending
-                                </h1>
-                                <p class="card-txt">1 BNB = 69,444.44 DKL</p>
+                                </h2>
+                                <p class="papasale__card-info">
+                                    1 BNB = 69,444.44 DKL
+                                </p>
                             </div>
-                            <p class="card-txt">Soft/Hard1B BNB - 36 BNB</p>
-                            <h1 class="card-body-subheading">
+                            <p class="papasale__card-info">
+                                Soft/Hard1B BNB - 36 BNB
+                            </p>
+                            <h3 class="papasale__card-subtitle">
                                 18 BNB - 36 BNB
-                            </h1>
-                            <div class="progress">
-                                <p class="card-txt">Progress (0.00%)</p>
-                                <div class="card-body-img">
+                            </h3>
+                            <div class="papasale__progress">
+                                <p class="papasale__progress-info">
+                                    Progress (0.00%)
+                                </p>
+                                <div class="papasale__progress-bar">
                                     <img
                                         src="./assets/img/papasale/progress-2.png"
                                         alt="progress"
                                     />
                                 </div>
-                                <div class="progress-txt-section">
-                                    <div class="progress-txt">
-                                        <p class="card-txt">0 BNB</p>
-                                        <p class="card-txt">39 BNB</p>
+                                <div class="papasale__progress-details">
+                                    <div class="papasale__progress-detail">
+                                        <p class="papasale__progress-label">
+                                            0 BNB
+                                        </p>
+                                        <p class="papasale__progress-label">
+                                            39 BNB
+                                        </p>
                                     </div>
-                                    <div class="progress-txt">
-                                        <p class="card-txt">Liquidity %</p>
-                                        <p class="card-txt">51 %</p>
+                                    <div class="papasale__progress-detail">
+                                        <p class="papasale__progress-label">
+                                            Liquidity %
+                                        </p>
+                                        <p class="papasale__progress-label">
+                                            51 %
+                                        </p>
                                     </div>
-                                    <div class="progress-txt">
-                                        <p class="card-txt">Lockup Time:</p>
-                                        <p class="card-txt">160 days</p>
+                                    <div class="papasale__progress-detail">
+                                        <p class="papasale__progress-label">
+                                            Lockup Time:
+                                        </p>
+                                        <p class="papasale__progress-label">
+                                            160 days
+                                        </p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="card-footer">
-                            <div class="card-footer-txt">
-                                <div class="card-txt">Sale stars in:</div>
-                                <div class="card-txt">26:19:40:25</div>
+                        <div class="papasale__card-footer">
+                            <div class="papasale__card-footer-txt">
+                                <div class="papasale__card-footer-label">
+                                    Sale starts in:
+                                </div>
+                                <div class="papasale__card-footer-time">
+                                    26:19:40:25
+                                </div>
                             </div>
-                            <div class="card-footer-btn">
+                            <div class="papasale__card-footer-btn">
                                 <button>View</button>
                             </div>
                         </div>
                     </div>
-                    <div class="papasale-card">
-                        <div class="card-header">
-                            <div class="card-header-img">
+                    <div class="papasale__card">
+                        <div class="papasale__card-header">
+                            <div class="papasale__card-header-img">
                                 <img
                                     src="./assets/img/papasale/profile-3.png"
                                     alt="profile-3"
                                 />
                             </div>
-                            <div class="card-btn">
+                            <div class="papasale__card-btn">
                                 <button>Upcoming</button>
                             </div>
                         </div>
-                        <div class="card-body">
+                        <div class="papasale__card-body">
                             <div>
-                                <h1 class="card-body-heading">
+                                <h2 class="papasale__card-title">
                                     Define kings Lending
-                                </h1>
-                                <p class="card-txt">1 BNB = 69,444.44 DKL</p>
+                                </h2>
+                                <p class="papasale__card-info">
+                                    1 BNB = 69,444.44 DKL
+                                </p>
                             </div>
 
-                            <p class="card-txt">Soft/Hard1B BNB - 36 BNB</p>
-                            <h1 class="card-body-subheading">18 BNB - 42BNB</h1>
-                            <div class="progress">
-                                <p class="card-txt">Progress (0.00%)</p>
-                                <div class="card-body-img">
+                            <p class="papasale__card-info">
+                                Soft/Hard1B BNB - 36 BNB
+                            </p>
+                            <h3 class="papasale__card-subtitle">
+                                18 BNB - 42BNB
+                            </h3>
+                            <div class="papasale__progress">
+                                <p class="papasale__progress-info">
+                                    Progress (0.00%)
+                                </p>
+                                <div class="papasale__progress-bar">
                                     <img
                                         src="./assets/img/papasale/progress-3.png"
                                         alt="progress"
                                     />
                                 </div>
-                                <div class="progress-txt-section">
-                                    <div class="progress-txt">
-                                        <p class="card-txt">0 BNB</p>
-                                        <p class="card-txt">42 BNB</p>
+                                <div class="papasale__progress-details">
+                                    <div class="papasale__progress-detail">
+                                        <p class="papasale__progress-label">
+                                            0 BNB
+                                        </p>
+                                        <p class="papasale__progress-label">
+                                            42 BNB
+                                        </p>
                                     </div>
-                                    <div class="progress-txt">
-                                        <p class="card-txt">Liquidity %</p>
-                                        <p class="card-txt">51 %</p>
+                                    <div class="papasale__progress-detail">
+                                        <p class="papasale__progress-label">
+                                            Liquidity %
+                                        </p>
+                                        <p class="papasale__progress-label">
+                                            51 %
+                                        </p>
                                     </div>
-                                    <div class="progress-txt">
-                                        <p class="card-txt">Lockup Time:</p>
-                                        <p class="card-txt">180 days</p>
+                                    <div class="papasale__progress-detail">
+                                        <p class="papasale__progress-label">
+                                            Lockup Time:
+                                        </p>
+                                        <p class="papasale__progress-label">
+                                            180 days
+                                        </p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="card-footer">
-                            <div class="card-footer-txt">
-                                <div class="card-txt">Sale stars in:</div>
-                                <div class="card-txt">26:19:40:25</div>
+                        <div class="papasale__card-footer">
+                            <div class="papasale__card-footer-txt">
+                                <div class="papasale__card-footer-label">
+                                    Sale starts in:
+                                </div>
+                                <div class="papasale__card-footer-time">
+                                    26:19:40:25
+                                </div>
                             </div>
-                            <div class="card-footer-btn">
+                            <div class="papasale__card-footer-btn">
                                 <button>View</button>
                             </div>
                         </div>
@@ -534,36 +615,72 @@
                 </div>
             </section>
             <!-- crypto exchange -->
-            <section class="crypto-exchange-section">
-                <div class="crypto-exchange">
-                    <div class="crypto-exchange-content">
-                        <div class="bg">
-                            <div class="bg-1">
-                                <div class="blur"></div>
-                                <div class="dot dot-1"></div>
-                                <div class="dot dot-2"></div>
-                                <div class="dot dot-3"></div>
-                                <div class="dot dot-4"></div>
-                                <div class="dot dot-5"></div>
-                                <div class="dot dot-6"></div>
-                                <div class="dot dot-7"></div>
+            <section class="crypto-exchange">
+                <div class="crypto-exchange__container">
+                    <div class="crypto-exchange__content">
+                        <div class="crypto-exchange__backgrounds">
+                            <div class="crypto-exchange__background--1">
+                                <div class="crypto-exchange__blur"></div>
+                                <div
+                                    class="crypto-exchange__dot crypto-exchange__dot--1"
+                                ></div>
+                                <div
+                                    class="crypto-exchange__dot crypto-exchange__dot--2"
+                                ></div>
+                                <div
+                                    class="crypto-exchange__dot crypto-exchange__dot--3"
+                                ></div>
+                                <div
+                                    class="crypto-exchange__dot crypto-exchange__dot--4"
+                                ></div>
+                                <div
+                                    class="crypto-exchange__dot crypto-exchange__dot--5"
+                                ></div>
+                                <div
+                                    class="crypto-exchange__dot crypto-exchange__dot--6"
+                                ></div>
+                                <div
+                                    class="crypto-exchange__dot crypto-exchange__dot--7"
+                                ></div>
                             </div>
-                            <div class="bg-2">
-                                <div class="blur"></div>
-                                <div class="dot dot-1"></div>
-                                <div class="dot dot-2"></div>
-                                <div class="dot dot-3"></div>
-                                <div class="dot dot-4"></div>
-                                <div class="dot dot-5"></div>
-                                <div class="dot dot-6"></div>
-                                <div class="dot dot-7"></div>
-                                <div class="dot dot-8"></div>
-                                <div class="dot dot-9"></div>
-                                <div class="dot dot-10"></div>
+                            <div class="crypto-exchange__background--2">
+                                <div class="crypto-exchange__blur"></div>
+                                <div
+                                    class="crypto-exchange__dot crypto-exchange__dot--1"
+                                ></div>
+                                <div
+                                    class="crypto-exchange__dot crypto-exchange__dot--2"
+                                ></div>
+                                <div
+                                    class="crypto-exchange__dot crypto-exchange__dot--3"
+                                ></div>
+                                <div
+                                    class="crypto-exchange__dot crypto-exchange__dot--4"
+                                ></div>
+                                <div
+                                    class="crypto-exchange__dot crypto-exchange__dot--5"
+                                ></div>
+                                <div
+                                    class="crypto-exchange__dot crypto-exchange__dot--6"
+                                ></div>
+                                <div
+                                    class="crypto-exchange__dot crypto-exchange__dot--7"
+                                ></div>
+                                <div
+                                    class="crypto-exchange__dot crypto-exchange__dot--8"
+                                ></div>
+                                <div
+                                    class="crypto-exchange__dot crypto-exchange__dot--9"
+                                ></div>
+                                <div
+                                    class="crypto-exchange__dot crypto-exchange__dot--10"
+                                ></div>
                             </div>
                         </div>
-                        <div class="small-heading">Crypto Exchange</div>
-                        <h1 class="crypto-exchange-heading">
+                        <div class="crypto-exchange__heading-small">
+                            Crypto Exchange
+                        </div>
+                        <h1 class="crypto-exchange__heading">
                             Low fees and deep liquidity
                         </h1>
                         <p class="desc">
@@ -571,11 +688,13 @@
                             elit, sed do eiusmod tempor incididunt ut labore et
                             consequat. Duis aute mollit anim id est laborum.
                         </p>
-                        <div class="crypto-exchange-btn">
-                            <button class="btn-primary">Go To Exchanges</button>
+                        <div class="crypto-exchange__btn">
+                            <button class="cta__btn-primary">
+                                Go To Exchanges
+                            </button>
                         </div>
                     </div>
-                    <div class="crypto-exchange-img">
+                    <div class="crypto-exchange__img">
                         <img
                             src="./assets/img/crypto-exchange.png"
                             alt="crypto exchange"
@@ -585,20 +704,20 @@
             </section>
             <!-- signup -->
             <section class="signup">
-                <div class="signup-img">
+                <div class="signup__img">
                     <img src="./assets/img/signup.png" alt="signup" />
                 </div>
-                <div class="signup-content">
-                    <div class="small-heading">Start Now</div>
-                    <h1 class="signup-heading">Sign up to learn more</h1>
+                <div class="signup__content">
+                    <div class="signup__small-heading">Start Now</div>
+                    <h1 class="signup__heading">Sign up to learn more</h1>
                     <div class="desc">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et consequat.
                         Duis aute mollit anim id est laborum.
                     </div>
-                    <div class="signup-input">
+                    <div class="signup__form">
                         <input type="email" placeholder="Enter your email" />
-                        <button class="btn-primary">Subscribes</button>
+                        <button class="cta__btn-primary">Subscribes</button>
                     </div>
                 </div>
             </section>
