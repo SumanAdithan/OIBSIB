@@ -21,7 +21,7 @@
                         <a href="#" class="navigation__link">Home</a>
                     </li>
                     <li class="navigation__item">
-                        <a href="#" class="navigation__link">About</a>
+                        <a href="#about" class="navigation__link">About</a>
                     </li>
                     <li class="navigation__item">
                         <a href="#" class="navigation__link">Our App</a>
@@ -40,6 +40,7 @@
         </header>
         <!-- main -->
         <main class="main">
+            <div id="main-dot-particles"></div>
             <!-- home -->
             <section class="home">
                 <div class="home__content">
@@ -69,7 +70,7 @@
                     </div>
                 </div>
                 <div class="home__img">
-                    <div id="dot-particles-js"></div>
+                    <div id="home-dot-particles"></div>
                     <div class="home__circle-layer home__circle-layer--1">
                         <div class="home__circle-layer home__circle-layer--2">
                             <img src="./assets/img/coin.svg" alt="coin" />
@@ -78,7 +79,16 @@
                 </div>
             </section>
             <!-- about -->
-            <section class="about">
+            <section class="about" id="about">
+                <div id="about-node-particles"></div>
+                <div id="about-dot-particles"></div>
+                <div id="about-svg-container" style="display: none">
+                    <img
+                        src="./assets/img/about-particles.svg"
+                        alt="background"
+                    />
+                </div>
+
                 <div class="about__image">
                     <div class="about__img">
                         <img
@@ -106,6 +116,15 @@
             </section>
             <!-- why choose us -->
             <section class="why-choose-us">
+                <div id="why-choose-us-node-particles"></div>
+                <div id="why-choose-us-dot-particles"></div>
+                <div class="why-choose-us-background-gradient"></div>
+                <div class="why-choose-us-background-img">
+                    <img
+                        src="./assets/img/about-background.png"
+                        alt="background"
+                    />
+                </div>
                 <div class="why-choose-us__content">
                     <div class="text-primary">Why Choose Us</div>
                     <h1 class="why-choose-us__heading">
@@ -180,6 +199,12 @@
             </section>
             <!-- guide -->
             <section class="guide">
+                <div id="guide-node-particles1"></div>
+                <div id="guide-node-particles2">
+                    <div class="guide-background-gradient"></div>
+                </div>
+                <div id="guide-dot-particles1"></div>
+                <div id="guide-dot-particles2"></div>
                 <div class="guide__content">
                     <div class="text-primary">Step by step guide</div>
                     <h1 class="guide__heading">Easy Steps to Success</h1>
@@ -294,6 +319,12 @@
             </section>
             <!-- feature -->
             <section class="feature">
+                <div class="feature-background-img">
+                    <img
+                        src="./assets/img/feature-background.png"
+                        alt="background"
+                    />
+                </div>
                 <div class="feature__content">
                     <div class="text-primary">Our Features</div>
                     <h1 class="feature__heading">All you need is here</h1>
@@ -806,5 +837,5 @@
         </footer>
     </body>
     <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
-    <script src="./assets/js/dotParticle.js"></script>
+    <script src="./assets/js/particles.js"></script>
 </html>
