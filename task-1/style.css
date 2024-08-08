@@ -1017,10 +1017,10 @@ img {
     }
 
     .header__cta > .cta__btn-primary {
-        padding: 1rem 1rem;
+        padding: 0.8rem;
         font-size: 0.8rem;
         font-weight: 600;
-        margin-right: 1rem;
+        margin: 0 1rem;
     }
 
     .header__menu-icon {
@@ -1189,7 +1189,7 @@ img {
 
     .feature__card {
         margin: 2rem auto;
-        min-width: 300px;
+        min-width: 250px;
         max-width: 320px;
     }
 
@@ -1205,7 +1205,8 @@ img {
     }
 
     .papasale__cards {
-        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     .papasale__card {
@@ -1241,6 +1242,15 @@ img {
     .signup {
         padding: 4rem 2rem;
         flex-direction: column;
+        align-items: center;
+    }
+
+    .signup__form > input {
+        width: 100%;
+    }
+
+    .signup__form > button {
+        padding: 1rem;
     }
 
     /* footer */
@@ -1257,135 +1267,222 @@ img {
 
 /* sm (Small screens, tablets) */
 @media (min-width: 640px) {
-    /* .home {
-        padding: 1rem 2rem 8rem;
-    }
-
-    .home__heading {
-        font-size: 1.8rem;
-    }
-
-    .home__img {
-        width: 60%;
-        overflow: visible;
-    }
-
-    .home__circle-layer--1 {
-        width: 15rem;
-        height: 15rem;
-    }
-
-    .home__circle-layer--2 > img {
-        width: 8rem;
-        height: 8rem;
-    } */
 }
 
 /* md (Medium screens, tablets and small laptops) */
 @media (min-width: 768px) {
-    /* .home {
-        padding: 1rem 4rem 8rem;
+    /* header */
+
+    .header__logo-txt {
+        font-size: 2rem;
     }
 
-    .home__heading {
-        font-size: 1.8rem;
+    .header__cta > .cta__btn-primary {
+        padding: 1rem 2rem;
+        font-size: 1rem;
     }
 
-    .home__img {
-        width: 60%;
-        overflow: visible;
+    /* home */
+    .home {
+        flex-direction: row;
+        padding: 6rem 4rem;
     }
 
     .home__circle-layer--1 {
-        width: 15rem;
-        height: 15rem;
+        width: 18rem;
+        height: 18rem;
     }
 
     .home__circle-layer--2 > img {
-        width: 8rem;
-        height: 8rem;
-    } */
+        width: 6rem;
+        height: 6rem;
+    }
+
+    .signup {
+        padding: 4rem 8rem;
+    }
 }
 
 /* lg (Large screens, laptops and desktops) */
 @media (min-width: 1024px) {
-    /* .header {
-        padding: 1rem 2rem;
+    /* utils */
+    .text-primary {
+        width: initial;
     }
 
-    .home {
-        padding: 8rem 4rem;
+    /* header */
+    .header {
+        padding: 1rem;
+    }
+
+    .header__menu-icon {
+        display: none;
+    }
+
+    .header__navigation {
+        width: initial;
+        display: block;
+        position: static;
+    }
+
+    .navigation__list {
+        padding: 0;
         flex-direction: row;
-        gap: 2rem;
+        justify-content: center;
     }
 
-    .home__heading {
-        font-size: 2.2rem;
+    .header__cta > .cta__btn-primary {
+        margin-right: 0;
     }
 
-    .home__circle-layer--1 {
-        width: 20rem;
-        height: 20rem;
+    /* home */
+    .home {
+        padding: 8rem 6rem;
     }
 
-    .home__circle-layer--2 > img {
-        width: 10rem;
-        height: 10rem;
-    } */
+    .home__btns {
+        flex-direction: row;
+    }
+
+    /* about */
+    .about {
+        padding: 8rem 6rem 4rem;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .about__content > .text-primary {
+        text-align: left;
+    }
+
+    .about__heading {
+        text-align: left;
+    }
+    .about__img {
+        display: block;
+    }
+
+    /* why choose us */
+    .why-choose-us {
+        padding: 4rem 6rem;
+    }
+
+    .why-choose-us__content {
+        text-align: center;
+    }
+
+    /* guide */
+    .guide {
+        padding: 4rem 6rem;
+    }
+
+    .guide__content {
+        text-align: center;
+    }
+
+    /* vision */
+    .vision {
+        padding: 4rem 6rem;
+        flex-direction: row;
+    }
+
+    .vision__content {
+        align-items: flex-start;
+    }
+
+    /* feature */
+    .feature {
+        padding: 4rem 6rem 2rem;
+    }
+
+    .feature__content {
+        text-align: center;
+    }
+
+    .feature__cards {
+        flex-direction: row;
+    }
+
+    .feature__section-cards {
+        width: 40%;
+    }
+
+    .feature__card {
+        margin-bottom: 3rem;
+    }
+
+    /* papasale */
+    .papasale {
+        padding: 0rem 6rem 2rem;
+    }
+
+    /* crypto-exchange */
+    .crypto-exchange {
+        padding: 4rem 6rem;
+    }
+
+    .crypto-exchange__container {
+        flex-direction: row;
+        align-items: center;
+        padding: 2rem 4rem;
+    }
+
+    .crypto-exchange__content {
+        width: 50%;
+    }
+
+    .crypto-exchange__content::before {
+        display: block;
+    }
+
+    .crypto-exchange__backgrounds {
+        display: block;
+    }
+
+    /* signup */
+    .signup {
+        padding: 4rem 6rem;
+        flex-direction: row;
+    }
+
+    /* footer */
+    .footer {
+        padding: 4rem 6rem;
+        flex-direction: row;
+    }
+
+    .footer__links {
+        flex-direction: row;
+    }
 }
 
 /* xl (Extra-large High Definition screens, large desktops) */
 @media (min-width: 1280px) {
-    /* .header {
-        padding: 1rem 4rem;
+    /* header */
+    .header {
+        padding: 1rem 8rem;
     }
 
+    /* home */
     .home {
-        padding: 8rem 6rem;
+        padding: 8rem 10rem;
     }
 
     .home__heading {
         font-size: 2.5rem;
     }
 
+    br {
+        display: block;
+    }
+
     .desc {
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
-
-    .home__circle-layer--1 {
-        width: 25rem;
-        height: 25rem;
-    }
-
-    .home__circle-layer--2 > img {
-        width: 12rem;
-        height: 12rem;
-    } */
 }
 
 /* 2xl (Extra-extra-large screens, large monitors) */
 @media (min-width: 1536px) {
-    /* .header {
-        padding: 1rem 6rem;
-    }
-
-    .home {
-        padding: 8rem 12rem;
-    }
-
-    .home__heading {
-        font-size: 3.1rem;
-    }
-
-    .home__circle-layer--1 {
-        width: 30rem;
-        height: 30rem;
-    }
-
-    .home__circle-layer--2 > img {
-        width: 15rem;
-        height: 15rem;
-    } */
 }
 
 /* 1080p (Full-high-definition screens) */
