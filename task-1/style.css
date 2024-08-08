@@ -1286,6 +1286,7 @@ img {
     .home {
         flex-direction: row;
         padding: 6rem 4rem;
+        min-height: 100vh;
     }
 
     .home__circle-layer--1 {
@@ -1296,6 +1297,11 @@ img {
     .home__circle-layer--2 > img {
         width: 6rem;
         height: 6rem;
+    }
+
+    /* about */
+    .about {
+        padding: 0rem 2rem 4rem;
     }
 
     .signup {
@@ -1346,7 +1352,7 @@ img {
 
     /* about */
     .about {
-        padding: 8rem 6rem 4rem;
+        padding: 0rem 6rem 4rem;
         flex-direction: row;
         align-items: center;
     }
@@ -1444,6 +1450,7 @@ img {
         padding: 4rem 6rem;
         flex-direction: row;
     }
+    padding: 4rem 2rem;
 
     /* footer */
     .footer {
@@ -1479,30 +1486,191 @@ img {
     .desc {
         font-size: 1.1rem;
     }
+
+    /* about */
+    .about {
+        padding: 0rem 10rem 4rem;
+    }
+
+    /* why choose us */
+    .why-choose-us {
+        padding: 4rem 10rem;
+    }
+
+    /* guide */
+    .guide {
+        padding: 4rem 10rem;
+    }
+
+    /* vision */
+    .vision {
+        padding: 4rem 10rem;
+    }
+
+    /* feature */
+    .feature {
+        padding: 4rem 10rem 2rem;
+    }
+
+    /* papasale */
+    .papasale {
+        padding: 0rem 10rem 2rem;
+    }
+
+    /* crypto exchange */
+    .crypto-exchange {
+        padding: 4rem 10rem;
+    }
+
+    /* footer */
+    .footer {
+        padding: 4rem 10rem;
+    }
 }
 
 /* 2xl (Extra-extra-large screens, large monitors) */
 @media (min-width: 1536px) {
-}
-
-/* 1080p (Full-high-definition screens) */
-@media (min-width: 1920px) {
-    /* .header {
-        padding: 1rem 15rem;
+    /* header */
+    .header {
+        padding: 1rem 10rem;
     }
 
+    /* home */
     .home {
-        padding: 8rem 20rem;
+        padding: 8rem 14rem;
     }
 
     .home__heading {
         font-size: 3.5rem;
-    } */
+    }
+
+    .home__circle-layer--1 {
+        width: 30rem;
+        height: 30rem;
+    }
+
+    .home__circle-layer--2 > img {
+        width: 15rem;
+        height: 15rem;
+    }
+
+    /* about */
+    .about {
+        padding: 0rem 14rem 4rem;
+    }
+
+    /* why choose us */
+    .why-choose-us {
+        padding: 4rem 14rem;
+    }
+
+    /* guide */
+    .guide {
+        padding: 4rem 14rem;
+    }
+
+    /* vision */
+    .vision {
+        padding: 4rem 14rem;
+    }
+
+    /* feature */
+    .feature {
+        padding: 4rem 14rem 2rem;
+    }
+
+    /* papasale */
+    .papasale {
+        padding: 0rem 14rem 2rem;
+    }
+
+    /* crypto exchange */
+    .crypto-exchange {
+        padding: 4rem 14rem;
+    }
+
+    /* footer */
+    .footer {
+        padding: 4rem 14rem;
+    }
+}
+
+/* 1080p (Full-high-definition screens) */
+@media (min-width: 1920px) {
+    /* header */
+    .header {
+        padding: 1rem 15rem;
+    }
+
+    /* home */
+    .home {
+        padding: 6rem 20rem 8rem;
+    }
+
+    /* about */
+    .about {
+        padding: 0rem 20rem 4rem;
+    }
+
+    /* why choose us */
+    .why-choose-us {
+        padding: 4rem 20rem;
+    }
+
+    /* guide */
+    .guide {
+        padding: 4rem 20rem;
+    }
+
+    /* vision */
+    .vision {
+        padding: 4rem 20rem;
+    }
+
+    /* feature */
+    .feature {
+        padding: 4rem 20rem 2rem;
+    }
+
+    /* papasale */
+    .papasale {
+        padding: 0rem 20rem 2rem;
+    }
+
+    /* crypto exchange */
+    .crypto-exchange {
+        padding: 4rem 20rem;
+    }
+
+    /* footer */
+    .footer {
+        padding: 4rem 20rem;
+    }
 }
 
 /* 2k (Quad-high-definition screens) */
-/* @media (min-width: 2560px) {
-} */
+@media (min-width: 2561px) {
+    .desc {
+        font-size: 1.5rem;
+    }
+
+    .main {
+        align-items: center;
+    }
+
+    .container {
+        max-width: 3000px;
+    }
+
+    .home {
+        padding: 8rem 20rem;
+        min-height: initial;
+    }
+
+    .about {
+        padding: 8rem 20rem;
+    }
+}
 
 /* 4k (Ultra-high-definition screens) */
 /* @media (min-width: 3840px) {
