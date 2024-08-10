@@ -59,7 +59,7 @@ This repository is licensed under the MIT License. See the `LICENSE` file for de
 
 ## Contact
 
-For any questions, feedback, or inquiries, you can reach me at [sumanadithan@gmail.com](mailto:sumanadithan@gmail.com).
+For any questions, feedback, or inquiries, you can reach me at [sumanadithan34@gmail.com](mailto:sumanadithan34@gmail.com).
 
 ## Acknowledgements
 
