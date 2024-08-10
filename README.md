@@ -8,19 +8,19 @@ Welcome to my repository! This contains the projects I completed during my inter
 
 -   **Description**: A landing page for cryptocurrency assets named Coinary.
 -   **Features**: Uses particles.js for animations to enhance visual appeal.
--   **Live URL**: [Landing Page](https://sumanadithan.github.io/OIBSIB/task-1/)
+-   **Live Demo**: [Landing Page](https://sumanadithan.github.io/OIBSIB/task-1/)
 -   **Figma Template**: Created using a template licensed under [CC BY 4.0](https://www.figma.com/community/file/1252920958684035465/cryptocurrency-landing-page-dark-mode).
 
 ### 2. Portfolio
 
 -   **Description**: A personal portfolio to showcase my skills, projects, and achievements.
--   **Live URL**: [Portfolio](https://sumanadithan.github.io/OIBSIB/task-2/)
+-   **Live Demo**: [Portfolio](https://sumanadithan.github.io/OIBSIB/task-2/)
 -   **Figma Template**: Created using a template licensed under [CC BY 4.0](https://www.figma.com/community/file/1235714687171618110).
 
 ### 3. Temperature Converter
 
 -   **Description**: A web application to convert temperatures between Celsius, Fahrenheit, and Kelvin.
--   **Live URL**: [Temperature Converter](https://sumanadithan.github.io/OIBSIB/task-3/)
+-   **Live Demo**: [Temperature Converter](https://sumanadithan.github.io/OIBSIB/task-3/)
 
 ## Technologies Used
 
