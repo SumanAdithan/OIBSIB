@@ -107,6 +107,7 @@ button {
     background: var(--primary);
     color: var(--white);
     font-weight: bold;
+    cursor:pointer;
 }
 
 .sub-heading {
