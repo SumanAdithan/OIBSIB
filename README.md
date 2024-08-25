@@ -36,7 +36,7 @@ To view or run the projects locally on your machine, follow these steps:
 1. **Clone the Repository**:
 
     ```bash
-    git clone https://github.com/your-username/oibsib.git
+    git clone https://github.com/SumanAdithan/OIBSIB.git
     ```
 
 2. **Navigate to the Project Directory**:
